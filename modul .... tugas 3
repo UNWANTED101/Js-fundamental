@@ -1,0 +1,11 @@
+var readline = require ('readline-sync');
+var angkabulat = readline.question('masukan bilangan bulat : ');
+var angkaril = readline.question('masukan bilangan riil : ');
+console.log('\n sebelum konversi tipe data '); 
+console.log('tipe a: ' + typeof angkabulat);
+console.log('tipe b: ' + typeof angkaril +'\n');
+a=parseInt(angkabulat);
+b=parseInt(angkaril);
+console.log('sudah konversi tipe data');
+console.log('tipe a: ' + typeof a);
+console.log('tipe b: ' + typeof b);
